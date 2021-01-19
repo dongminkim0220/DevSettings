@@ -6,22 +6,21 @@
 
 ## Init Github repository & Connect to Local
 
-<github>
+[github]
+  1. Create Repository @ github page
   
-  - Create Repository @ github page
+[local]
   
-<local>
+  2. git init
   
-  - git init
+  3. git status
   
-  - git status
+  4. git add .
   
-  - git add .
+  5. git commit -am "message"
   
-  - git commit -am "message"
+  6. git remote add origin "\<url of github\>"
   
-  - git remote add origin "<url of github>"
+  7. git remote -v
   
-  - git remote -v
-  
-  - git push origin master
+  8. git push origin master
