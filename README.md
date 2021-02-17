@@ -18,10 +18,17 @@
   git push origin master
 ```
 ## Installing Python3.7 in Ubuntu
+### setting
 ```
 sudo apt update
 sudo apt install software-properties-common
 sudo add-apt-repository ppa:deadsnakes/ppa
 sudo apt update
 sudo apt install python3.7
+```
+### alias
+File /home/dongmin/.bashrc
+```
+alias python=python3.7
+alias pip=pip3
 ```
